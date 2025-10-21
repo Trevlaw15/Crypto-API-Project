@@ -1,0 +1,33 @@
+body {
+    background-color: #6e9ccb;
+}
+
+.card {
+    border-radius: 1rem;
+    background-color: aliceblue;
+}
+
+.card-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+
+.card canvas {
+    flex: 1;
+    /* lets the canvas fill remaining space */
+    width: 100% !important;
+    /* ensure full width */
+}
+
+.card .card-body {
+    height: 500px;
+}
+
+.background {
+    background-color: #6e9ccb;
+}
